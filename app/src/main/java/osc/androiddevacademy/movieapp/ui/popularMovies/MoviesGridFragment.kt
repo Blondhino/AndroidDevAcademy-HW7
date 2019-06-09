@@ -1,4 +1,4 @@
-package osc.androiddevacademy.movieapp.ui
+package osc.androiddevacademy.movieapp.ui.popularMovies
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -12,9 +12,11 @@ import osc.androiddevacademy.movieapp.R
 import osc.androiddevacademy.movieapp.common.showFragment
 import osc.androiddevacademy.movieapp.database.MoviesDatabase
 import osc.androiddevacademy.movieapp.model.Movie
-import osc.androiddevacademy.movieapp.model.MoviesResponse
+import osc.androiddevacademy.movieapp.model.response.MoviesResponse
 import osc.androiddevacademy.movieapp.networking.BackendFactory
 import osc.androiddevacademy.movieapp.networking.interactors.MovieInteractor
+import osc.androiddevacademy.movieapp.ui.adapters.MoviesGridAdapter
+import osc.androiddevacademy.movieapp.ui.details.MoviesPagerFragment
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

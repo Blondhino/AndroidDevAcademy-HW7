@@ -1,8 +1,8 @@
 package osc.androiddevacademy.movieapp.networking.interactors
 
 import osc.androiddevacademy.movieapp.model.Movie
-import osc.androiddevacademy.movieapp.model.MoviesResponse
-import osc.androiddevacademy.movieapp.model.ReviewsResponse
+import osc.androiddevacademy.movieapp.model.response.MoviesResponse
+import osc.androiddevacademy.movieapp.model.response.ReviewsResponse
 import osc.androiddevacademy.movieapp.networking.MovieApiService
 import retrofit2.Callback
 

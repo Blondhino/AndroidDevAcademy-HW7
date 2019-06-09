@@ -1,8 +1,8 @@
 package osc.androiddevacademy.movieapp.networking
 
 import osc.androiddevacademy.movieapp.model.Movie
-import osc.androiddevacademy.movieapp.model.MoviesResponse
-import osc.androiddevacademy.movieapp.model.ReviewsResponse
+import osc.androiddevacademy.movieapp.model.response.MoviesResponse
+import osc.androiddevacademy.movieapp.model.response.ReviewsResponse
 import retrofit2.Call
 import retrofit2.http.GET
 import retrofit2.http.Path

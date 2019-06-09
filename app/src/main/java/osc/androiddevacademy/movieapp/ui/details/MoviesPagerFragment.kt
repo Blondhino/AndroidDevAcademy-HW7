@@ -1,4 +1,4 @@
-package osc.androiddevacademy.movieapp.ui
+package osc.androiddevacademy.movieapp.ui.details
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import kotlinx.android.synthetic.main.fragment_pager.*
 import osc.androiddevacademy.movieapp.R
 import osc.androiddevacademy.movieapp.model.Movie
+import osc.androiddevacademy.movieapp.ui.adapters.MoviePagerAdapter
 
 class MoviesPagerFragment : Fragment() {
 
@@ -26,7 +27,11 @@ class MoviesPagerFragment : Fragment() {
     }
 
     private val movieList = mutableListOf<Movie>()
-    private val pagerAdapter by lazy { MoviePagerAdapter(childFragmentManager) }
+    private val pagerAdapter by lazy {
+        MoviePagerAdapter(
+            childFragmentManager
+        )
+    }
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         return inflater.inflate(R.layout.fragment_pager, container, false)

@@ -1,10 +1,11 @@
-package osc.androiddevacademy.movieapp.ui
+package osc.androiddevacademy.movieapp.ui.adapters
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import osc.androiddevacademy.movieapp.R
 import osc.androiddevacademy.movieapp.model.Review
+import osc.androiddevacademy.movieapp.ui.adapters.viewHolders.ReviewViewHolder
 
 class ReviewAdapter : RecyclerView.Adapter<ReviewViewHolder>(){
 

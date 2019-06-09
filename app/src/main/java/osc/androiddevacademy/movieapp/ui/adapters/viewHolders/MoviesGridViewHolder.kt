@@ -1,4 +1,4 @@
-package osc.androiddevacademy.movieapp.ui
+package osc.androiddevacademy.movieapp.ui.adapters.viewHolders
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView
